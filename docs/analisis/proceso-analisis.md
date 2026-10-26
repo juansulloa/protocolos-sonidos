@@ -2,9 +2,7 @@
 
 ## 🗂️ Paso 1. Preparar datos
 
-- [ ] Completar el formato *Field Deployments Sheet* (CSA).
-
-    Ficha de campo de referencia para pamflow: [field deployments sheet](https://doi.org/10.5281/zenodo.16922848).
+- [ ] Completar la ficha de campo de referencia: [field deployments sheet](https://doi.org/10.5281/zenodo.16922848).
 
     Se pueden agregar columnas adicionales según el proyecto, pero no modificar las existentes. Para un listado de mínimos, [ver documentación](https://pamflow.readthedocs.io/en/latest/data_standardization/data_exchange_format.html).
 
