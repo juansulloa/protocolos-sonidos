@@ -1,0 +1,47 @@
+site_name: Protocolos del equipo
+site_url: https://ORG.github.io/REPO/
+repo_url: https://github.com/ORG/REPO
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: es
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicio: index.md
+  - Preparación:
+      - Pruebas de funcionamiento: preparacion/pruebas-funcionamiento.md
+      - Nombres de equipos y puntos: preparacion/nombres-equipos-puntos.md
+      - Audiopolillas - actualización: preparacion/audiopolillas-actualizacion.md
+      - Audiopolillas - configuración: preparacion/audiopolillas-configuracion.md
+      - Audiopolillas - modos LED: preparacion/audiopolillas-modos-led.md
+  - Campo:
+      - Lista de chequeo de despliegue: campo/lista-chequeo-despliegue.md
+      - Ficha de instalación: campo/ficha-instalacion.md
+      - Infografía de instalación: campo/infografia-instalacion.md
+      - Ficha de retiro: campo/ficha-retiro.md
+      - Almacenamiento de grabadoras: campo/almacenamiento-grabadoras.md
+  - Análisis:
+      - Proceso de análisis: analisis/proceso-analisis.md
+      - pamflow: analisis/pamflow.md
+      - Anotación de pasivos: analisis/anotacion-pasivos.md
+      - Validaciones manuales: analisis/validaciones.md
+  - Datos:
+      - Hoja de ruta - Sonidos y SiB: datos/hoja-ruta-sonidos-sib.md
+      - Hoja de ruta - Pasivos y CSA: datos/hoja-ruta-pasivos-csa.md
+      - Sistematización de datos PAM: datos/sistematizacion-pam.md
+      - Publicación en repositorios: datos/publicacion-repositorios.md
