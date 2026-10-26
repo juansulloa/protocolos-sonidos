@@ -6,14 +6,15 @@
 
     Se pueden agregar columnas adicionales según el proyecto, pero no modificar las existentes. Para un listado de mínimos, [ver documentación](https://pamflow.readthedocs.io/en/latest/data_standardization/data_exchange_format.html).
 
-    El nombre de los deployments debe ser único para todo el proyecto. Si solo hay una temporada, puede ser el mismo nombre del sensor. Si hay múltiples temporadas, idear un nombre único.
+    !!! important
+        Los nombres de los deploymentID deben seguir la convención `CODIGOGRABADORA-LOCATIONID-DEPLOYMENTSGROUP`.
 
 - [ ] Revisar manualmente los archivos de audio colectados.
     - [ ] Eliminar el contenido que se encuentre fuera del periodo de muestreo. Esto incluye cualquier audio no deseado, como voces de personas que estuvieron en la instalación o ruidos provenientes del sensor. En este proceso se eliminan también los archivos generados al configurar la grabadora con fechas de 1970 o 2106.
-- [ ] Nombrar adecuadamente las carpetas según el `deploymentID` ([ver](https://pamflow.readthedocs.io/en/latest/data_standardization/data_exchange_format.html#file-organization)).
-- [ ] Renombrar los archivos de audio usando el [siguiente script](https://github.com/pamflow-org/rename_audio_files).
 
-    Los nombres deben seguir la convención `CODIGOGRABADORA-LOCATIONID-DEPLOYMENTSGROUP`.
+- [ ] Nombrar adecuadamente las carpetas según el `deploymentID` del la ficha de campo ([ver](https://pamflow.readthedocs.io/en/latest/data_standardization/data_exchange_format.html#file-organization)).
+
+- [ ] Renombrar los archivos de audio usando el [siguiente script](https://github.com/pamflow-org/rename_audio_files).
 
 - [ ] Subir los audios al servidor compartido (NAS ANH o NAS FPVA).
 
