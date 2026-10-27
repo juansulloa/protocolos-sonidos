@@ -4,7 +4,7 @@ Este sitio centraliza los protocolos del equipo para el monitoreo acústico pasi
 
 \* Las páginas marcadas con asterisco están en elaboración.
 
-## Preparación de materiales y equipos
+## Preparación y cuidado de materiales y equipos
 
 - [Pruebas de funcionamiento y verificación de consistencia entre dispositivos](preparacion/pruebas-funcionamiento.md) \*
 - [Nombre de los equipos y puntos de muestreo](preparacion/nombres-equipos-puntos.md) \*
